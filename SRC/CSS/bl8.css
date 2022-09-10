@@ -1,0 +1,78 @@
+body{
+    background: black;
+}
+h1{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+footer{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.ball{
+    background: rgb(10, 9, 9);
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border-radius: 50%;
+    box-shadow: rgba(196, 188, 188, 0.09) 0px 54px 55px, rgba(196, 188, 188, 0.09) 0px -12px 30px, rgba(196, 188, 188, 0.09) 0px 4px 6px, rgba(196, 188, 188, 0.09) 0px 12px 13px, rgba(196, 188, 188, 0.09) 0px -3px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(248, 244, 227);
+    border: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: black;
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+       
+}
+.pergunta{
+    background: rgb(248, 244, 227);
+    border: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: black;
+    margin-top: 80px; 
+}
+.answer {
+    background: rgb(248, 244, 227);
+    border: none;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    margin-top: 50px;  
+}
+
+.botão{
+    background: rgb(248, 244, 227) ;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    margin-top: 80px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    
+}
+.botão:hover{
+    background-color: rgb(214, 206, 194);
+}
