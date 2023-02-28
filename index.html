@@ -5,32 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="SRC/CSS/bl8.css">
+    <link rel="stylesheet" href="./SRC/CSS/reset.css">
+    <link rel="stylesheet" href="./SRC/CSS/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700&display=swap" rel="stylesheet">
 
-    <title>Bola 8 virtual</title>
+    <title>Bola 8 Mágica Virtual</title>
 
     <link rel="shortcut icon" href="SRC/imagens/oito-bolas-de-bilhar.png" type="image/x-icon">
 
 </head>
 <body>
-    <h1>Bola 8 Mágica</h1>
-    <div class="ball" id="bola">
-        <div class="conteudo">
-            <input type="text" placeholder="Digite uma pergunta" name="questão" class="pergunta" id="txtq" >
-            <div class="answer" id="resp">
-                Sua resposta aparecerá aqui
+    <h1 class="titulo">Bola 8 Mágica</h1>
+    <section class="bola" id="bola">
+        <div class="conteudo_bola">
+            <input type="text" placeholder="Digite uma pergunta" name="questão" class="pergunta_bola" id="pergunta" >
+            <div >
+                <p class="resposta_bola" id="resposta">Sua resposta aparecerá aqui</p>
             </div>
         </div>
-        
-              
-        <input type="submit" class="botão" value="Clique aqui e descubra" onclick="aperte()">
-    </div>
-   <script src="SRC/JS/index.js"></script> 
+
+        <input type="submit" class="botão" id="botao" value="Clique aqui e descubra">
+    </section>
+
+    <footer>
+        <p class="footer">Feito por Mayara Lopes - Versão 2.0 (02/2023)</p>
+    </footer>
+
+   <script src="./SRC/JS/main.js"></script> 
+
 </body>
-<footer>Feito por Mayara Lopes</footer>
+
 </html>
